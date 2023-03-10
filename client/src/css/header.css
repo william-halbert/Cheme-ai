@@ -1,0 +1,112 @@
+.header {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 10;
+}
+.headerHover {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 10;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 250, 250, 0.3));
+}
+
+.headerPurple {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 10;
+  background-image: linear-gradient(
+    hsla(253, 56%, 51%, 1),
+    hsla(263, 49%, 68%, 1)
+  );
+}
+.header:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 250, 250, 0.3));
+}
+.headerLogo {
+  margin-top: 2vh;
+  padding: none;
+  width: 18vw;
+  margin-left: 2vw;
+}
+.headerLogo:hover {
+  cursor: pointer;
+}
+.btn {
+  margin: 0;
+  padding: 15px 20px;
+  background: rgba(76, 175, 80, 0);
+  /*border-radius: 8px;*/
+  border: none;
+  color: #fefefe;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+}
+.btn:hover {
+  /*box-shadow: 0 3px 10px #f9deb1;*/
+  color: #f9deb1;
+  cursor: pointer;
+}
+.signIn {
+  position: absolute;
+  right: 0;
+  margin-right: 5vw;
+  border: 1.5px solid #fefefe;
+  border-radius: 5px;
+}
+.signIn:hover {
+  color: hsla(8, 43%, 78%, 1);
+  cursor: pointer;
+  border: 1.5px solid hsla(8, 43%, 78%, 1);
+}
+.features,
+.signIn {
+  text-decoration: none;
+}
+.signIn {
+  margin: 0;
+  margin-right: 5vw;
+  padding: 15px 20px;
+  background: rgba(76, 175, 80, 0);
+  /*border-radius: 8px;*/
+  border: 1.5px solid #fefefe;
+  color: #fefefe;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  z-index: 11;
+}
+.features {
+  margin: 0;
+  margin-left: 3vw;
+  padding: 15px 20px;
+  background: rgba(76, 175, 80, 0);
+  /*border-radius: 8px;*/
+  border: none;
+  color: #fefefe;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  z-index: 20;
+}
+.features:hover {
+  color: hsla(8, 43%, 78%, 1);
+}

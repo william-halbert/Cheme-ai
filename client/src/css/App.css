@@ -1,0 +1,23 @@
+/* 
+Colors:
+blue #00afef
+purple #cb6ce6
+logo orange #f9deb1
+dark purple #4E0264
+dark blue #008EC2
+scheme dark orange hsla(12, 48%, 57%, 1);
+scheme light orange: hsla(8, 43%, 78%, 1);
+scheme purple: hsla(248, 73%, 51%, 1);
+bottomHeader: hsla(263, 49%, 68%, 1);
+topHeader: hsla(253, 56%, 51%, 1);
+textGrey: #3D3D3D;
+*/
+body {
+  width: 100vw;
+  font-family: "Montserrat";
+  margin: 0;
+  height: auto;
+  min-height: calc(100vh - 100px);
+  background: unset;
+  /*background: hsla(248, 73%, 51%, 1);*/
+}

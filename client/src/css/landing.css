@@ -1,0 +1,82 @@
+#heroImg {
+  height: 120vh;
+  width: 100vw;
+  padding: 0;
+  margin-bottom: 0;
+}
+.heroWrapper {
+  height: 120vh;
+}
+#heroText {
+  position: absolute;
+  top: 15vh;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  margin-bottom: 0;
+}
+.everythingText {
+  text-align: center;
+  margin-top: 4vh;
+  color: hsla(8, 43%, 78%, 1);
+  font-size: 54px;
+  z-index: 2;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+.withKeyText {
+  text-align: center;
+  margin-top: 5vh;
+  color: #fefefe;
+  font-size: 22px;
+  z-index: 2;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.btn {
+  margin: 0;
+  padding: 15px 20px;
+  background: rgba(76, 175, 80, 0);
+  /*border-radius: 8px;*/
+  border: none;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+}
+.btn:hover {
+  /*box-shadow: 0 3px 10px #f9deb1;*/
+  color: #f9deb1;
+  cursor: pointer;
+}
+.tryNow {
+  margin-top: 8vh;
+  background: hsla(12, 48%, 57%, 1);
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 24px 14px 24px 28px;
+}
+.tryNow:hover {
+  color: white;
+  background: hsla(8, 43%, 78%, 1);
+}
+
+/*scheme dark orange hsla(12, 48%, 57%, 1);
+scheme light orange: hsla(8, 43%, 78%, 1);
+*/
+.rightArrow {
+  position: relative;
+  top: 2px;
+  margin-left: 10px;
+  color: white;
+}
+.tryText {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,187 @@
+/* 
+Colors:
+blue #00afef
+purple #cb6ce6
+logo orange #f9deb1
+dark purple #4E0264
+dark blue #008EC2
+scheme dark orange hsla(12, 48%, 57%, 1);
+scheme light orange: hsla(8, 43%, 78%, 1);
+scheme purple: hsla(248, 73%, 51%, 1);
+bottomHeader: hsla(263, 49%, 68%, 1);
+topHeader: hsla(253, 56%, 51%, 1);
+textGrey: #3D3D3D;
+light oragne for button first color: #cc8472;
+*/
+
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+.loginLogo {
+  width: 5vw;
+  margin-top: 3vh;
+}
+.welcomeLogin {
+  margin-top: 16vh;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+.emailLogin,
+.passwordLogin,
+.submitLogin {
+  display: block;
+  margin: 0 auto;
+}
+.loginBtn {
+  width: 300px;
+  padding: 15px 25px;
+  border: 1px solid #3d3d3d;
+  border-radius: 3px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.loginBtn::placeholder {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.loginBtn:focus {
+  outline: none !important;
+  border: 2px solid hsla(12, 48%, 57%, 1);
+}
+.loginBtn:focus::placeholder {
+  color: transparent;
+}
+.submitLogin {
+  min-width: 350px;
+  margin: 28px 0 0 0;
+  background: #cc8472;
+  border: none;
+  color: #fefefe;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.submitLogin:hover {
+  background: hsla(12, 48%, 57%, 1);
+  cursor: pointer;
+}
+.passwordLogin {
+  margin: 13px 0 0 0;
+}
+.submitLogin::placeholder {
+  color: white;
+}
+.loginToSignup {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0;
+}
+.dontLogin {
+  font-size: 13px;
+  color: #3d3d3d;
+  font-weight: bold;
+}
+.loginLinkToSignup {
+  margin-left: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  color: hsla(12, 48%, 57%, 1);
+}
+.forgotPassword {
+  display: block;
+  margin-top: 18px;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  color: hsla(12, 48%, 57%, 1);
+}
+.signUpBtn {
+  margin-top: 40px;
+}
+.pleaseNoteLogin {
+  position: relative;
+  top: -10px;
+  margin-top: 0;
+  max-width: 350px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.welcomeSignup {
+  margin-top: 16vh;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.firstNameSignup {
+  width: 120px;
+  padding: 15px 25px;
+  border: 1px solid #3d3d3d;
+  border-radius: 3px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.lastNameSignup {
+  margin-left: 10px;
+  width: 120px;
+  padding: 15px 25px;
+  border: 1px solid #3d3d3d;
+  border-radius: 3px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.firstNameSignup::placeholder,
+.lastNameSignup::placeholder {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.firstNameSignup:focus,
+.lastNameSignup:focus {
+  outline: none !important;
+  border: 2px solid hsla(12, 48%, 57%, 1);
+}
+.confirmAge {
+  position: relative;
+  top: -8px;
+  font-size: 13px;
+  color: #3d3d3d;
+  font-weight: bold;
+  margin-top: 0;
+}
+.signupUse {
+  text-align: left;
+  width: 350px;
+  padding: 15px 20px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: none;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.signupUse:hover {
+  outline: none !important;
+  padding: 13px 18px;
+  border: 3px solid hsla(8, 43%, 78%, 1); /*hsla(12, 48%, 57%, 1);*/
+  cursor: pointer;
+}
+.noteOnCreditsText {
+  position: relative;
+  top: -10px;
+  margin-top: 0;
+  max-width: 350px;
+  text-align: left;
+  font-size: 13px;
+  margin-bottom: 0;
+  line-height: 18px;
+}

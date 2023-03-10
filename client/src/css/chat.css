@@ -1,0 +1,59 @@
+.chatPage {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.chatPanel {
+  width: 72vw;
+  margin-left: 28vw;
+  height: 100vh;
+  background: #fcfbff;
+}
+.notesPanel {
+  width: 28vw;
+  min-height: 100vh;
+  position: fixed;
+  background: #fce7e2;
+}
+.headerNotesPanel {
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 28vw;
+  position: fixed;
+  background: #fce7e2;
+  z-index: 2;
+}
+.logoNotesPanel {
+  height: 7vh;
+  position: absolute;
+  left: 2vw;
+  top: 3vh;
+}
+
+.profileNotesPanel {
+  height: 7vh;
+  position: absolute;
+  right: 2vw;
+  top: 3vh;
+}
+.notesNotesPanel {
+  margin-left: 3vw;
+  position: absolute;
+  top: 10vh;
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+}
+.aNote h1 {
+  margin: 12px;
+}
+.aNote ul {
+  margin: 0;
+}
+.aNote li {
+  margin: 5px;
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+}

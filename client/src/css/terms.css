@@ -1,0 +1,16 @@
+.termsWrapper {
+  position: absolute;
+  top: 15vh;
+  width: 100vw;
+  background: #fefefe;
+}
+.termsHeading {
+  color: black;
+}
+.termsParagraphs {
+  color: #3d3d3d;
+}
+.termsText {
+  margin: 0 auto;
+  width: 80vw;
+}
