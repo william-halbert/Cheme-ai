@@ -24,16 +24,19 @@ function LogIn() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     async function logInJSON() {
-      const response = await fetch("http://127.0.0.1:4000/users/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          email,
-          password,
-        }),
-      });
+      const response = await fetch(
+        "https://ehrboost.herokuapp.com/users/login",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            email,
+            password,
+          }),
+        }
+      );
       const user = await response.json();
       return user;
     }

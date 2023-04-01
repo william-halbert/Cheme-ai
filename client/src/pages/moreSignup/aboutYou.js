@@ -26,7 +26,7 @@ function AboutYou() {
   }
   const handleSubmit = async (e) => {
     e.preventDefault();
-    fetch("http://127.0.0.1:4000/users/me", {
+    fetch("https://ehrboost.herokuapp.com/users/me", {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
