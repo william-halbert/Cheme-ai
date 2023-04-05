@@ -23,9 +23,7 @@ function HeaderLanding() {
       <Link to="../">
         <img src={logo} className="headerLogo" />
       </Link>
-      <Link to="features" className="features">
-        Features
-      </Link>
+
       <Link to="../login" className="signIn">
         Sign In
       </Link>

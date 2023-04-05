@@ -20,7 +20,7 @@ function Landing() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Everything you need to<br></br>solve anything you want.
+            Everything you need to solve anything you want.
           </motion.h1>
           <motion.h1
             className="withKeyText"
@@ -28,7 +28,7 @@ function Landing() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.25, duration: 0.5 }}
           >
-            With key AI Tools, calibrations, and more, ChemE.AI<br></br>is your
+            With key AI Tools, calibrations, and more, ChemE.AI is your
             next-generation problem solving suite.
           </motion.h1>
           <motion.div

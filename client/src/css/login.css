@@ -185,3 +185,13 @@ light oragne for button first color: #cc8472;
   margin-bottom: 0;
   line-height: 18px;
 }
+@media (max-width: 900px) {
+  .loginLogo {
+    height: 8vh;
+    width: unset;
+    margin-top: 5vh;
+  }
+  .welcomeLogin {
+    max-width: 90vw;
+  }
+}

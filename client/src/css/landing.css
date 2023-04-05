@@ -27,15 +27,17 @@
   z-index: 2;
   letter-spacing: 2px;
   margin-bottom: 0;
+  max-width: 80vw;
 }
 .withKeyText {
   text-align: center;
   margin-top: 5vh;
   color: #fefefe;
-  font-size: 22px;
+  font-size: 2rem;
   z-index: 2;
   letter-spacing: 1px;
   margin-bottom: 0;
+  max-width: 60vw;
 }
 
 .btn {
@@ -79,4 +81,31 @@ scheme light orange: hsla(8, 43%, 78%, 1);
   font-size: 18px;
   text-decoration: none;
   font-weight: bold;
+}
+@media (max-width: 900px) {
+  .everythingText {
+    font-size: 2rem;
+    max-width: 90vw;
+    line-height: 2.5rem;
+    text-align: left;
+  }
+  #heroImg {
+    height: 110vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  }
+  .heroWrapper {
+    height: 110vh;
+  }
+  .withKeyText {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    max-width: 80vw;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+    text-align: right;
+  }
+  .tryNow {
+    margin-top: 4rem;
+  }
 }

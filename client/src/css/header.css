@@ -110,3 +110,9 @@
 .features:hover {
   color: hsla(8, 43%, 78%, 1);
 }
+@media only screen and (max-width: 900px) {
+  .headerLogo {
+    margin-top: 1vh;
+    width: 40vw;
+  }
+}
